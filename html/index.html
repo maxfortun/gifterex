@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<title>Gifter Exchange | The simple way to generate a double blind gift exchange chain</title>
+	</head>
+	<body>
+		<h3>Gifter Exchange</h3>
+		<h3>The simple way to generate a double blind gift exchange chain</h3>
+
+		<form>
+		<table border="1" width="100%">
+
+		<tr>
+			<td align="center">
+				Have an existing gift exchange?
+				<table width="70%" border="1">
+				<tr>
+					<td>Your email address: </td>
+					<td><input type="text" style="display:table-cell; width:100%; height:100%;"/></td>
+					<td width="2px"></td>
+					<td>Gift Exchange Id: </td>
+					<td><input type="text" style="display:table-cell; width:100%; height:100%;"/></td>
+					<td align="right"><input type="submit" /></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+
+		<tr>
+			<td align="center">
+				Create a new gift exchange
+
+				<table width="70%" border="1">
+				<tr>
+					<td>Your email address</td>
+					<td><input type="text" style="display:table-cell; width:100%; height:100%;"/></td>
+				</tr>
+
+				<tr>
+					<td>Gift exchange date</td>
+					<td><input type="text" style="display:table-cell; width:100%; height:100%;"/></td>
+				</tr>
+
+				<tr>
+					<td>Notification date</td>
+					<td><input type="text" style="display:table-cell; width:100%; height:100%;"/></td>
+				</tr>
+
+				<tr>
+					<td valign="top">
+						Invite text
+						<br/>
+						Following placeholders are available:<br/>
+						<table>
+						<tr>
+							<td valign="top">${firstName}:</td>
+							<td>first name of a person being addressed</td>
+						</tr>
+						<tr>
+							<td valign="top">${nickName}:</td>
+							<td>nickname of a person being addressed</td>
+						</tr>
+						<tr>
+							<td valign="top">${fullName}:</td>
+							<td>full name of a person being addressed</td>
+						</tr>
+						<tr>
+							<td valign="top">${eventDate}:</td>
+							<td>date and time of the exchange</td>
+						</tr>
+						<tr>
+							<td valign="top">${noticeDate}:</td>
+							<td>date and time of the exchange</td>
+						</tr>
+						</table>
+					</td>
+					<td><textarea rows="20" cols="70">
+Hello ${firstName},
+You are cordially invited to participate in super secret gift exchange game to be held on ${eventDate} at super secret location.
+On ${noticeDate}, a super secret computer will randomly match participants to each other and email each participant their designated gift recipient.
+The match is guaranteed to be not bidirectional. That means that if you are selected to give a present to someone, it is guaranteed that that someone is giving a present to someone else and not to you.
+Significant others and family members will also be excluded from being selected as possible recipients from each other.
+A gift value is to be within a $20-$25 range to guarantee equivalence.
+YOU MUST NOT DISCLOSE TO ANYONE UNTIL THE TIME OF GATHERING WHO IS YOUR DESIGNATED RECIPIENT!
+Participation in this game is not meant to prevent you from giving more than one present to more than one person of dubious monetary value or higher.
+					</textarea></td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td align="right"><input type="submit"/></td>
+				</tr>
+
+
+				</table>
+			</td>
+		</tr>
+
+
+
+
+
+
+		</table>
+		</form>
+	</body>
+</html>
